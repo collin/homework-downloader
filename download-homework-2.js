@@ -9,7 +9,7 @@ for (const submission of submissions) {
   const name = submission.Name;
   const project = submission['Please select the project you are submitting'];
   const url = submission['URL to Deployed Site (Netlify)'];
-  if (project !== "Project 1: Personal Site") {
+  if (project !== "Project 2: Qwirty") {
     continue
   }
 
